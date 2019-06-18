@@ -4,9 +4,7 @@
 /node_modules
 /public
 /src
-/static
 package-lock.json
 package.json
 README.md
 yarn.lock
-
