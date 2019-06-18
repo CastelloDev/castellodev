@@ -1,0 +1,29 @@
+.profile-image{
+    border: 2px solid black;
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.rotational-character{
+    line-height:1;
+    margin: 0px auto 242px;
+
+    animation: circle 5s linear infinite;
+    transform-origin:50% 130px;
+
+    // animation: inner-circle 5s linear infinite;
+}
+
+@keyframes circle {
+    from { transform:rotate(0deg); }
+    to { transform:rotate(360deg); }
+}
+
+@keyframes inner-circle {
+    from { transform:rotate(0deg); }
+    to { transform:rotate(-360deg); }
+}

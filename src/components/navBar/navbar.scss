@@ -1,0 +1,12 @@
+@import '../../constants/variables';
+
+.navbar {
+  height: 65px;
+  background-image: linear-gradient($tertiary 1%, $primary 15%);
+
+  .logo {
+    img {
+      height: 100%;
+    }
+  }
+}
