@@ -1,9 +1,9 @@
 import React from 'react';
-import './waterdrop.module.scss';
+import styles from './waterdrop.module.scss';
 
 function WaterDrop() {
   return (
-    <div className='waterdrop-container'>
+    <div className={styles['waterdrop-container']}>
       <div></div>
     </div>
   );

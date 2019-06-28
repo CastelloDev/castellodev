@@ -1,10 +1,10 @@
 import React from 'react'
-import './profileimage.module.scss'
+import styles from './profileimage.module.scss'
 
 export default function ProfileImage() {
     return (
-        <div className="profile-image">
-            <div className="rotational-character">カ</div>
+        <div className={styles["profile-image"]}>
+            <div className={styles["rotational-character"]}>カ</div>
         </div>
     )
 }

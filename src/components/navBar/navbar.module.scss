@@ -1,10 +1,14 @@
-@import '../../constants/variables';
+@import '../../constants/variables.module.scss';
 
 .navbar {
   height: 65px;
   background-image: linear-gradient($tertiary 1%, $primary 15%);
 
   .logo {
+    width: fit-content;
+    a{
+      width: auto;
+    }
     img {
       height: 100%;
     }

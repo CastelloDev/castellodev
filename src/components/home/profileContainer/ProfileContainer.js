@@ -1,10 +1,10 @@
 import React from 'react';
-import './profilecontainer.module.scss';
+import styles from './profilecontainer.module.scss';
 import ProfileImage from './profileImage/ProfileImage';
 
 function ProfileContainer() {
   return (
-    <div className='profile-container'>
+    <div className={styles['profile-container']}>
       <ProfileImage />
     </div>
   );

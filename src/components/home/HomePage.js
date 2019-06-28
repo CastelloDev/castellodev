@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import VerticalBar from './verticalBar/VerticalBar';
 import ProfileContainer from './profileContainer/ProfileContainer';
-import './homepage.module.scss';
+import styles from './homepage.module.scss';
 
 export class HomePage extends Component {
   render() {
     return (
-      <div className='homepage'>
-        <div className='top-half'>
+      <div className={styles['homepage']}>
+        <div className={styles['top-half']}>
           <VerticalBar position='left' />
           <ProfileContainer />
           <VerticalBar position='right' />
