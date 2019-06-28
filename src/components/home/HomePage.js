@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import VerticalBar from './verticalBar/VerticalBar';
 import ProfileContainer from './profileContainer/ProfileContainer';
-import './homepage.css';
+import './homepage.module.scss';
 
 export class HomePage extends Component {
   render() {

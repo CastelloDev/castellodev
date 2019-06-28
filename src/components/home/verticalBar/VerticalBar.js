@@ -1,5 +1,5 @@
 import React from 'react'
-import './verticalbar.css'
+import './verticalbar.module.scss'
 
 function VerticalBar(props) {
     return (

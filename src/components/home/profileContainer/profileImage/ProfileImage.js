@@ -1,5 +1,5 @@
 import React from 'react'
-import './profileimage.css'
+import './profileimage.module.scss'
 
 export default function ProfileImage() {
     return (

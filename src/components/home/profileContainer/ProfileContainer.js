@@ -1,5 +1,5 @@
 import React from 'react';
-import './profilecontainer.css';
+import './profilecontainer.module.scss';
 import ProfileImage from './profileImage/ProfileImage';
 
 function ProfileContainer() {

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './componentviewer.css';
+import './componentviewer.module.scss';
 import WaterDrop from '../animationComponents/WaterDrop';
 export class ComponentViewer extends Component {
   render() {

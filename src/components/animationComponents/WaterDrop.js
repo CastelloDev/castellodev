@@ -1,5 +1,5 @@
 import React from 'react';
-import './waterdrop.css';
+import './waterdrop.module.scss';
 
 function WaterDrop() {
   return (
