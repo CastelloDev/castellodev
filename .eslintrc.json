@@ -81,6 +81,7 @@
         "key-spacing": 0,
         "brace-style": [0, "1tbs", { "allowSingleLine": true }],
         "space-before-function-paren":[0, "never"],
-        "semi": 1
+        "semi": 1,
+        "no-unused-vars": [0, { "vars": "local", "args": "after-used", "ignoreRestSiblings": false }]
     }
 }
