@@ -1,0 +1,13 @@
+.playground-container{
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+
+    .playground-showcase{
+        width: 200px;
+        height: 230px;
+        background-color: white;
+        border-radius: 10px;
+    }
+}
